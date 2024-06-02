@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Stock Market</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <div class="text">
+        <h1>TRACK STOCK MARKET PRICES</h1>
+        <p1>(Please Enter The Stock Ticker Symbol)</p1>
+    </div>
+    
+    <div class="DropBox">
+        <div class="text">
+            <label for="StockName">ENTER STOCK NAME</label>
+        </div>
+        <br>
+        <div class="centre">
+            <input type="text" name="stockSymbol" required>
+        </div>    
+        <br>
+        <div class="centre">
+            <button type="submit" onclick="displayStockPrice()">Submit</button>
+        </div>
+        <br>
+        <div class="centre stock-price-box">
+            <div class="stock-price"></div>
+        </div>
+    </div>
+</body>
+</html>
